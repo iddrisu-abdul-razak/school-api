@@ -28,6 +28,7 @@ isAdmin: {
 }, { 
     timestamps:true
 }
-)
+);
+
 const User = mongoose.model("user", uesrSchema)
 module.exports = User;
